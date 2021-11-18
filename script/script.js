@@ -61,8 +61,6 @@ function addcrypto(){
   table_td3.innerHTML = '$'+tokenMarketCap;
 }
 
-// var lastID = tbody.querySelectorAll('th');
-// console.log(lastID[10-1].textContent);
 
 function updateTokenData(){
   var token_id = document.getElementById('updateTokenId').value
@@ -77,11 +75,6 @@ function updateTokenData(){
   marketCap.innerHTML = '$'+token_market_cap
 }
 
-// var rows = document.getElementsByTagName("table")[0].rows;
-// var last = rows[2]; //row
-// var cell = last.cells[3]; //token name
-// var value = cell.innerHTML
-// console.log(value);
 
 
 // this function remove token only 1 time, if you want that this function work correctly reload page after every deleting token
